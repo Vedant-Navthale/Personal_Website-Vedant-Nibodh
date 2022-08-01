@@ -1,0 +1,305 @@
+<html>
+    <head>
+        <title>Vedant Navthale</title>
+        
+        <style>
+            /** {
+                box-sizing: border-box;
+            }*/
+
+            body {
+                font-family: sans-serif;
+                margin: 0%;
+            }
+
+            .topnav {                           /**************** Navigation Bar ****************/
+                overflow: visible;
+                background-color: #014342;
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+
+            .topnav a {                         /**************** Nav Bar Links ****************/
+                float: left;
+                display: block;
+                color: goldenrod;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            .topnav a:hover {                   /**************** Nav Bar Link On Hover ****************/
+                background-color: goldenrod;
+                color: #014342;
+            }
+            
+            .Header {                           /**************** MainPhoto | write ****************/
+                position: relative;
+                margin-top: 46px;
+                
+            }
+                        
+            .MainPhoto {                        /**************** Main Photo ****************/
+                width: 100%;
+            }
+            
+            .write {
+                position: absolute;
+                top: 50%;
+                left: 20%;
+                transform: translate(-50%, -50%);
+                color: goldenrod;
+            }
+            
+            h1 {                                /**************** Vedant Navthale on MainPhoto ****************/
+                font-size: 50px;
+            }
+
+            .leftcolumn {
+                float: left;
+                width: 25%;
+                background-color: #014342;
+                color: goldenrod;
+            }
+
+            .Face-img {
+                background-color: #aaa;
+                width: 50%;
+                padding: 15px;
+                border-radius: 100%;
+            }
+
+            .Profile {                          /**************** SmallPhoto | Vedant Navthale ****************/
+                text-align: center;
+            }
+
+            /*.contact {
+                margin-bottom: 100%;
+            }*/
+
+            .contact a {
+                text-decoration: none;
+                color: goldenrod;
+            }
+
+            .contact a:visited {
+                color: goldenrod;
+            }
+
+            .contact a:active {
+                color: goldenrod;
+            }
+
+            .contact a:hover {
+                color: goldenrod;
+            }
+
+            .Link {
+                margin-left:10px;
+            }
+
+            .rightcolumn {   
+                float: left;
+                width: 75%;
+            }
+            
+            hr {
+                width: 95%;
+                height: 7px;
+                background-color: #014342;
+            }
+
+            .card {
+                padding: 20px 20px 20px 20px;
+            }
+
+            .card a {
+                text-decoration: none;
+                color: black;
+            }
+            
+        </style>
+    </head>
+    <body>
+
+        <script>
+            window.addEventListener("hashchange", function () {
+            window.scrollTo(window.scrollX, window.scrollY - 100);
+            });
+            </script>
+            
+        <!-------------- UP SECTION --------------->
+        <div class="topnav">
+            <a href="#" onclick="scrollWin()"><strong>Home</strong></a>
+            <a href="#About-Link" onclick="scrollWin()"><strong>About</strong></a>
+            <a href="#Skill-Link" onclick="scrollWin()"><strong>Skills</strong></a>
+            <a href="#Education_Link" onclick="scrollWin()"><strong>Education</strong></a>
+            <a href="#Experiance-Link" onclick="scrollWin()"><strong>Experiance</strong></a>
+            <a href="#Projects-Link" onclick="scrollWin()"><strong>Projects</strong></a>
+            <a href="#Contact-Link" onclick="scrollWin()"><strong>Contact</strong></a>
+        </div>
+
+        <div class="Header">
+            <img src="BigPhoto-1.jpg" alt="Main Photo" class="MainPhoto">
+
+            <div class="write">
+                <h1>Vedant Navthale</h1>
+                <p>I'm Software Designer, Software Developer, Software Engineer</p>
+            </div>
+        </div>
+
+        <!-------------- END UP SECTION --------------->
+
+        <!-------------- ROW SECTION --------------->
+
+            <!-------------- LEFT COLUMN --------------->
+               <div class="leftcolumn">
+                <div class="card">
+                    <br>
+                    <br>
+                    <br>
+                    <div class="Profile">
+                        <a><img src="SmallPhoto.jpg" class="Face-img"></a>
+                        <h2>Vedant Navthale</h2>
+                        <br>
+                    </div>
+    
+                    <div class="top-skill">
+                        <h3>Top Skills</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                            <li>Digital Marketing</li>
+                        </ul>
+                        <br><br>
+                    </div>
+    
+                    <div class="contact" id="Contact-Link">
+                        <h3>Contact Me</h3>
+                        <ul>
+                            <li><a href="http://www.linkedin.com/in/vedant-n-0334241b9" class="Link">Linkedin</a></li>
+                            <li><a href="vedant.co60@tpoly.in" class="Link">Mail</a></li>
+                            <li><a href="https://github.com/Vedant-Navthale" class="Link">Github</a></li>
+                            <li> Phone: +91 7710005395</li><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+
+                <!-------------- END LEFT COLUMN --------------->
+
+
+                <!-------------- RIGHT COLUMN --------------->
+    
+                <div class="rightcolumn">
+                    <div class="card">
+                        
+                        <a id="About-Link"><h2><u>Abo</u>ut</h2></a>
+                        <p>I am currently pursuing Diploma in Computer Engineering from Thakur Polytechnic and will pursue Bachelor in Computer Engineering and MBA in future.</p>
+                        <p>I am being spending time to build new skills, learn more about Software Development.</p>
+                        <p>My primary goal is to follow my passion in Software Development while teaming up with people with similar mind set to come up with effective products for peoples.</p>
+
+                        <br>
+                        <hr>
+                        <br>
+                        
+                        <h2>Hobbies</h2>
+                        <p>Reading, Coding, Learning, Browsing Net, Rubik Cube, Playing Guitar, Playing Games.</p>
+                        
+                        <br>
+                        <hr>
+                        <br>
+                        
+                        <h2>Certificate & Award</h2>
+                        <h3>Microsoft AI Classroom Series - By Microsoft</h3>
+                        <h4>Feb 2021 - During Diploma in Computer Engineering</h4>
+
+                    
+
+                        <br>
+                        <hr>
+    
+                    
+                        <a id="Skill-Link"><h2><u>Skil</u>ls</h2></a>
+                        <strong><i>Technical Skills:</i></strong>
+                        <p>Language</p>
+                        <i><p>C, C++, HTML, CSS, SQL, JAVA</p></i>
+                        <p>Other</p>
+                        <i><p>OOP, Algorithm, Data Structures, Word, Excel, PPT, Productivity, Photoshop</p></i>
+                        <br>
+    
+                        <strong><i>Soft Skills:</i></strong>
+                        <i><p>Adaptability, Teamwork, Leadership, Public Specking, Time Management, Creative Thinking, Logical Thinking, Collaboration</p></i>
+
+
+                        <br>
+                        <hr>
+    
+                    
+                        <a id="Education_Link"><h2><u>Educa</u>tion</h2></a>
+                        <h3>School</h3>
+                        <h4>St. Mary's High School</h4>
+                        <h5>2006 - 2009 | Thane, India</h5>
+                        <br>
+                        <h4>St. Xavier's High School</h4>
+                        <h5>2009 - 2020 | Thane, India</h5>
+                        <p>10th Percentage - 72.20%</p>
+                        <br>
+                        <h3>College</h3>
+                        <h4>Thakur Polytechnic</h4>
+                        <p>Diploma in Computer Engineering</p>
+                        <h5>2020 - Present | Mumbai, India</h5>
+                        
+                        <br>
+                        <hr>
+                        
+                        <a id="Experiance-Link"><h2><u>Experi</u>ance</h2></a>
+                        <h4>Nibodh Educare PVT LTD. | Intern</h4>
+                        <h5>July, 2022 - Present | Mumbai, India</h5>
+                        <p>I have learning MERN Stack for Web and App, Basic of Digital Marketing like SEO and other, Frontend, Backend, Database Management, Marketing, Finance Management.</p>
+                        <p>And Soft Skills like resume writing, Pitch Deck, Interpersonal Skills, Presentation Writing.</p>
+                        
+                        <br>
+                        <hr>
+                        
+                        <a id="Projects-Link"><h2><u>Proje</u>cts</h2></a>
+                        <h3>Fixed Deposit of Bank Account</h3>
+                        <h4>Made by - Java</h4>
+                        <p>During Diploma in Computer Engineering</p>
+                        <br>
+                        <h3>Clock</h3>
+                        <h4>Made by - HTML, CSS, Javascript</h4>
+                        <br>
+                        <h3>Vehicle Showroom</h3>
+                        <h4>Made by - HTML, CSS for BMW Cars</h4>
+                        <p>During Diploma in Computer Engineering</p>
+                        
+                        <br>
+                        <hr>
+                        <br>
+                        
+                        <h3>Microsoft AI Clasroom Series - By Microsoft</h3>
+                        <h4>Feb 2021 - During Diploma in Computer Engineering</h4>
+
+                        <br>
+
+                        <h3>Code Master - By Thakur Polytechnic</h3>
+                        <h4>July 2022 - During Diploma in Computer Engineering</h4>
+
+                        <br>
+                        <hr>
+
+                        <a href=""><p><strong>Click here to Print this page - </strong></p></a>
+                        <button onclick="window.print()">Print this Page</button>
+
+                    </div>
+
+                </div>
+
+                <!-------------- END RIGHT COLUMN --------------->
+        
+        <!-------------- END ROW SECTION --------------->
+
+</body>
+</html>
